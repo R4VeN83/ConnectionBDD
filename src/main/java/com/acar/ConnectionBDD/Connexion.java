@@ -21,6 +21,7 @@ public class Connexion {
 				System.out.println("Connexion réussi");
 			} else {
 				System.out.println("Connexion échouée");
+				System.out.println("Test d'un pull");
 			}
 			
 			String insertQueryStatement = "INSERT  INTO  etudiant  VALUES  (?,?,?,?,?,?,?)";
